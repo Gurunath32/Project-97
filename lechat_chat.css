@@ -1,0 +1,20 @@
+body {
+    background-image: url("main_background.jpg");
+    background-repeat: no-repeat;
+}
+
+#send_div {
+background-color: white;
+width: 100%;
+float: bottom;
+position: fixed;
+bottom: 5px;
+}
+
+#send_div input {
+    width: 250px;
+}
+
+#logout {
+    float: right;
+}

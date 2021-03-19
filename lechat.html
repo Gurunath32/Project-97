@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>LeChat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Truculenta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Truculenta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Truculenta&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="lechat.css">
+    </head>
+    <body>
+        <center>
+        <h1>lechat</h1>
+        <br>
+        <br>
+        <h2 id="welcome"></h2>
+        <br>
+        <div id="add_room_div">
+        <h4>Room Name</h4>
+        <input type="text" id="room_name" class="form-control" placeholder="Enter Room Name">
+        <br>
+        <button class="btn btn-success" onclick="addroom()">#Add Room</button>
+        </div>
+        <br>
+        <h2>Rooms</h2>
+        <div id="rooms_div"></div>
+        </center>
+        <button class="btn btn-danger" id="logout_button" onclick="logout()">logout</button>
+    </body>
+    <script src="lechat.js"></script>
+    </html>

@@ -1,0 +1,33 @@
+body {
+    background-image: url("main_background.jpg");
+    background-repeat: no-repeat;
+}
+
+#add_room_div {
+    background-color: white;
+    width: 420px;
+    height: 130px;
+}
+
+#add_room_div input{
+    width: 300px;
+}
+
+#logout_button {
+    float: right;
+    margin-top: 200px;
+    margin-right: 10px;
+}
+
+#rooms_div {
+    background-color: white;
+}
+
+.user_tick {
+    width: 20px;
+    height: 20px;
+}
+
+#output {
+    background: white;
+}

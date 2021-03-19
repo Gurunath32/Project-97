@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>LeChat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Truculenta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Truculenta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Truculenta&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <center>
+        <div id="login_div">
+            <img id="logo" src="logo.jpg">
+            <br>
+            <h2 id="header">Kwitter</h2>
+            <label id="description">See Whats Happing In The World Right Now</label>
+            <h4 id="login_note">Enter Your Username Below To Login</h4>
+            <input id="username" class="form-control" placeholder="Username">
+            <br>
+            <button id="login_button" class="glyphicon glyphicon-log-in btn btn-success" onclick="login()"> Login</button>
+
+        </div>
+    </center>
+    </body>
+    <script src="login.js"></script>
+</html>

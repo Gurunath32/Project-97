@@ -1,0 +1,33 @@
+#logo {
+    border-radius: 75%;
+    border-color: 2px solid black; 
+    width: 200px;
+}
+
+#username {
+    width: 150px;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgba(188, 227, 219), rgba(84, 131, 191,1));
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+#login_div {
+    margin-top: 165px;
+}
+
+#header {
+    font-family: 'Truculenta', sans-serif;
+}
+
+#description {
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Truculenta', sans-serif;
+}
+
+#login_note {
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Truculenta', sans-serif;
+}

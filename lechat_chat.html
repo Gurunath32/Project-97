@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>LeChat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Truculenta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Truculenta&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Truculenta&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="lechat_chat.css">
+</head>
+<body>
+    <div class="container">
+        <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+            <center>
+                <h1 class="header">Kwitter</h1>
+                <div id="output" style="text-align: left; margin-bottom: 70px; background: lightcyan; border-radius: 15px;"></div>
+
+                <div id="send_div">
+                    <label>Send:</label>
+                    <input id="message" class="form-control" placeholder="Enter Your Message" type="text">
+                    <button id="message_send_button" class="glyphicon glyphicon-send btn btn-success" onclick="send_message()"></button>
+                </div>
+                </center>
+                </div>
+</body>
+<script src="lechat_chat.js"></script>
+</html>
